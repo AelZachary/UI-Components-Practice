@@ -13,9 +13,9 @@ public class MainApp extends JFrame {
         setSize(1200, 800);
         setLocationRelativeTo(null);
 
-        HeaderPanel header = new HeaderPanel();
-        SidebarPanel sidebar = new SidebarPanel();
         CharacterGridPanel grid = new CharacterGridPanel();
+        SidebarPanel sidebar = new SidebarPanel(grid::showCharacters);
+        HeaderPanel header = new HeaderPanel();
 
         JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, sidebar, grid);
         splitPane.setDividerLocation(180);
