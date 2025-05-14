@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.resourceFilters": [
+        "resources"
+    ],
+    "java.project.referencedLibraries": [
+        "resources/**"
+    ]
+}
