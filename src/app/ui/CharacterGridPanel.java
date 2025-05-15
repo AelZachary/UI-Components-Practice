@@ -82,14 +82,13 @@ public class CharacterGridPanel extends JScrollPane {
             {"Kamuro Masumi", "Quiet and loyal, always supporting Sakayanagi from the shadows.", "CLASS_A"},
             {"Totsuka Yahiko", "Eager to prove himself, though often overlooked by his peers.", "CLASS_A"},
             {"Hashimoto Masayoshi", "An opportunist who's always looking for leverage.", "CLASS_A"},
-            {"Kanzaki Ryuuji", "Calm and analytical, a reliable strategist for Class A.", "CLASS_A"},
 
             // CLASS B
             {"Ichinose Honami", "Leader of Class B, known for her charisma and strong moral compass.", "CLASS_B"},
-            {"Shibata Satoru", "Friendly and athletic, always ready to help classmates.", "CLASS_B"},
-            {"Kanzaki Hideo", "Level-headed and supportive, a steady presence in Class B.", "CLASS_B"},
-            {"Miyake Akito", "Protective and straightforward, values honesty above all.", "CLASS_B"},
-            {"Onodera Kayano", "Energetic and optimistic, brings positivity to the class.", "CLASS_B"},
+            {"Shibata Sou", "Friendly and athletic, always ready to help classmates.", "CLASS_B"},
+            {"Kanzaki Ryuuji", "Calm and analytical, a reliable strategist for Class A.", "CLASS_B"},
+            {"Chihiro Shiranami", "kind-hearted and emotionally vulnerable student from Class B", "CLASS_B"},
+            
 
             // CLASS C
             {"Kakeru Ryueen", "Ruthless leader of Class C who believes in domination and power.", "CLASS_C"},
@@ -107,8 +106,10 @@ public class CharacterGridPanel extends JScrollPane {
             {"Yosuke Hirata", "Popular student who tries to maintain peace among classmates.", "CLASS_D"},
             {"Matsushita Chiaki", "Smart and supportive girl with a calm personality.", "CLASS_D"},
             {"Kikyou Kushida", "Appears friendly, but hides a dark and manipulative personality.", "CLASS_D"},
-            {"Hondou Ikkei", "Easygoing and cheerful, always lightening the mood.", "CLASS_D"},
-            {"Yamauchi Haruki", "Comedic and sometimes clueless, but loyal to his friends.", "CLASS_D"}
+            {"Kanji Ike", "Easygoing and cheerful, always lightening the mood.", "CLASS_D"},
+            {"Yamauchi Haruki", "Comedic and sometimes clueless, but loyal to his friends.", "CLASS_D"},
+            {"Miyake Akito", "Protective and straightforward, values honesty above all.", "CLASS_D"},
+            {"Onodera Kayano", "Energetic and optimistic, brings positivity to the class.", "CLASS_D"},
         };
 
         for (String[] item : data) {
